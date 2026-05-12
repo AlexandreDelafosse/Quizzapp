@@ -1,0 +1,73 @@
+import { QuizQuestion } from '../types';
+
+export const quizQuestions: QuizQuestion[] = [
+  {
+    id: '1',
+    question: 'Quel est le plus grand animal terrestre ?',
+    options: ['Lion', 'Éléphant d\'Afrique', 'Hippopotame', 'Rhinocéros'],
+    answer: 'Éléphant d\'Afrique',
+    explanation: 'L\'éléphant d\'Afrique est le plus grand animal terrestre, pouvant peser jusqu\'à 6 tonnes.',
+    category: 'mammal',
+  },
+  {
+    id: '2',
+    question: 'Lequel de ces animaux est un mammifère ?',
+    options: ['Aigle royal', 'Grand requin blanc', 'Lion', 'Caméléon panthère'],
+    answer: 'Lion',
+    explanation: 'Le lion est un mammifère car il est à sang chaud, allaite ses petits et possède des poils.',
+    category: 'mammal',
+  },
+  {
+    id: '3',
+    question: 'Quelle est la vitesse de plongée de l\'aigle royal ?',
+    options: ['150 km/h', '220 km/h', '320 km/h', '400 km/h'],
+    answer: '320 km/h',
+    explanation: 'L\'aigle royal peut atteindre 320 km/h en piqué, ce qui en fait l\'un des animaux les plus rapides.',
+    category: 'bird',
+  },
+  {
+    id: '4',
+    question: 'D\'où vient le caméléon panthère ?',
+    options: ['Afrique du Sud', 'Madagascar', 'Australie', 'Brésil'],
+    answer: 'Madagascar',
+    explanation: 'Le caméléon panthère (Furcifer pardalis) est endémique de Madagascar.',
+    category: 'reptile',
+  },
+  {
+    id: '5',
+    question: 'Comment s\'appelle le groupe social des lions ?',
+    options: ['Meute', 'Troupeau', 'Fierté', 'Colonie'],
+    answer: 'Fierté',
+    explanation: 'Les lions vivent en groupes appelés "fiertés" (pride en anglais), composés de femelles, leurs petits et quelques mâles.',
+    category: 'mammal',
+  },
+  {
+    id: '6',
+    question: 'Pourquoi les grenouilles dendrobates sont-elles venimeuses en liberté mais pas en captivité ?',
+    options: [
+      'Elles s\'adaptent à leur environnement',
+      'Leur venin vient des insectes qu\'elles mangent',
+      'Elles produisent moins de venin sous stress',
+      'Le venin est dilué par l\'eau en captivité',
+    ],
+    answer: 'Leur venin vient des insectes qu\'elles mangent',
+    explanation: 'Les dendrobates ne synthétisent pas leur venin eux-mêmes. Il provient des insectes et arthropodes sauvages qu\'ils consomment.',
+    category: 'amphibian',
+  },
+  {
+    id: '7',
+    question: 'Quelle est l\'envergure maximale de l\'aigle royal ?',
+    options: ['1,2 m', '1,7 m', '2,3 m', '3,0 m'],
+    answer: '2,3 m',
+    explanation: 'L\'envergure de l\'aigle royal peut atteindre 2,3 mètres, ce qui en fait l\'un des plus grands oiseaux de proie.',
+    category: 'bird',
+  },
+  {
+    id: '8',
+    question: 'À quelle distance peut-on entendre le rugissement d\'un lion ?',
+    options: ['2 km', '5 km', '8 km', '12 km'],
+    answer: '8 km',
+    explanation: 'Le rugissement d\'un lion peut s\'entendre jusqu\'à 8 km de distance grâce à la forme de leur larynx.',
+    category: 'mammal',
+  },
+];
